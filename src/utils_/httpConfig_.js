@@ -7,7 +7,7 @@ const getToken = () => localStorage.getItem("token");
 
 const config = axios.create({
   baseURL: isDesa
-    ? "http://localhost:3000/cursos"
+    ? "http://localhost:3004/cursos"
     : "https://iebs.dev-test.com.ar/lcms-app/public-service/curso.json",
 });
 

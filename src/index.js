@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import DataActionsContextTag from "./contexts/dataContext";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataActionsContextTag>
+      <App />
+    </DataActionsContextTag>
   </React.StrictMode>,
   document.getElementById('root')
 );
